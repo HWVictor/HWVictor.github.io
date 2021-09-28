@@ -4,7 +4,7 @@ HWVictor.github.io is a static website made with [Jekyll](https://jekyllrb.com/)
 
 ## /\_layouts
 
-Contains the layouts that Jekyll will copy to each page
+Contains the layouts that Jekyll will use to generate each page
 
 ### default.html
 
