@@ -4,7 +4,7 @@ HWVictor.github.io is a static website made with [Jekyll](https://jekyllrb.com/)
 
 ## /\_layouts
 
-Contains the layouts for Jekyll to copy the **footer** and **navigation** on every page
+Contains the layouts that Jekyll will copy to each page
 
 ### default.html
 
@@ -20,7 +20,7 @@ Contains blog posts written in markdown (.md)
 
 ## /about
 
-Contains an index.html file that defines the layout and content for the about page
+Contains an index.html file that defines the layout and content for the about page, it inherits the default layout and adds a title and some text explaining the site with some permalinks to the websites of the tools I used (GitHub and Jekyll)
 
 ## /assets/images
 
@@ -28,7 +28,7 @@ Contains the image to be displayed in the home page
 
 ## /blog
 
-Cotains the layout of the blog page, which includes a title and a for loop for displaying each blog
+Cotains the layout of the blog page, which includes a title and a for loop for displaying each blog. It Inherits the default layout
 
 ## /css
 
