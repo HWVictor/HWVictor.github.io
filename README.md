@@ -12,7 +12,7 @@ The default layout with the footer, navigation and a link to the styling sheet. 
 
 ### post.html
 
-Inherits default.html and adds a title and a date to each post
+Inherits default.html and definesd the layout of each post (title, date, content)
 
 ## /\_posts
 
@@ -36,7 +36,7 @@ Contains the main stylesheet that changes the colors, fonts and overall look of 
 
 ## .gitignore
 
-Makes git ignore the \_sites directory created by Jekyll since I am not using Jekyll plugins that are not supported by GitHub pages
+Makes git ignore the \_sites/ directory created by Jekyll. \_sites/ is cleared and regenerated each time the site is compiled so there is no need for git to keep track of its changes
 
 ## config.yml
 
